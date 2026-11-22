@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Territory Planner" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Демо: кольцо Apple Park</name>
+  </metadata>
+  <wpt lat="37.3349000" lon="-122.0031184">
+    <time>2026-01-01T09:00:00Z</time>
+    <name>P1</name>
+  </wpt>
+  <wpt lat="37.3357433" lon="-122.0029850">
+    <time>2026-01-01T09:00:18Z</time>
+    <name>P2</name>
+  </wpt>
+  <wpt lat="37.3366060" lon="-122.0031049">
+    <time>2026-01-01T09:00:38Z</time>
+    <name>P3</name>
+  </wpt>
+  <wpt lat="37.3374181" lon="-122.0035146">
+    <time>2026-01-01T09:00:57Z</time>
+    <name>P4</name>
+  </wpt>
+  <wpt lat="37.3381062" lon="-122.0041943">
+    <time>2026-01-01T09:01:17Z</time>
+    <name>P5</name>
+  </wpt>
+  <wpt lat="37.3386202" lon="-122.0050740">
+    <time>2026-01-01T09:01:36Z</time>
+    <name>P6</name>
+  </wpt>
+  <wpt lat="37.3389499" lon="-122.0060592">
+    <time>2026-01-01T09:01:55Z</time>
+    <name>P7</name>
+  </wpt>
+  <wpt lat="37.3391254" lon="-122.0070658">
+    <time>2026-01-01T09:02:13Z</time>
+    <name>P8</name>
+  </wpt>
+  <wpt lat="37.3391986" lon="-122.0080467">
+    <time>2026-01-01T09:02:30Z</time>
+    <name>P9</name>
+  </wpt>
+  <wpt lat="37.3392167" lon="-122.0090000">
+    <time>2026-01-01T09:02:47Z</time>
+    <name>P10</name>
+  </wpt>
+  <wpt lat="37.3392167" lon="-122.0090000">
+    <time>2026-01-01T09:02:57Z</time>
+    <name>P10</name>
+  </wpt>
+  <wpt lat="37.3391986" lon="-122.0099533">
+    <time>2026-01-01T09:03:14Z</time>
+    <name>P11</name>
+  </wpt>
+  <wpt lat="37.3391254" lon="-122.0109342">
+    <time>2026-01-01T09:03:32Z</time>
+    <name>P12</name>
+  </wpt>
+  <wpt lat="37.3389499" lon="-122.0119408">
+    <time>2026-01-01T09:03:50Z</time>
+    <name>P13</name>
+  </wpt>
+  <wpt lat="37.3386202" lon="-122.0129260">
+    <time>2026-01-01T09:04:09Z</time>
+    <name>P14</name>
+  </wpt>
+  <wpt lat="37.3381062" lon="-122.0138057">
+    <time>2026-01-01T09:04:28Z</time>
+    <name>P15</name>
+  </wpt>
+  <wpt lat="37.3374181" lon="-122.0144854">
+    <time>2026-01-01T09:04:47Z</time>
+    <name>P16</name>
+  </wpt>
+  <wpt lat="37.3366060" lon="-122.0148951">
+    <time>2026-01-01T09:05:07Z</time>
+    <name>P17</name>
+  </wpt>
+  <wpt lat="37.3357433" lon="-122.0150150">
+    <time>2026-01-01T09:05:26Z</time>
+    <name>P18</name>
+  </wpt>
+  <wpt lat="37.3349000" lon="-122.0148816">
+    <time>2026-01-01T09:05:45Z</time>
+    <name>P19</name>
+  </wpt>
+  <wpt lat="37.3349000" lon="-122.0148816">
+    <time>2026-01-01T09:05:55Z</time>
+    <name>P19</name>
+  </wpt>
+  <wpt lat="37.3341192" lon="-122.0145694">
+    <time>2026-01-01T09:06:13Z</time>
+    <name>P20</name>
+  </wpt>
+  <wpt lat="37.3334071" lon="-122.0141587">
+    <time>2026-01-01T09:06:31Z</time>
+    <name>P21</name>
+  </wpt>
+  <wpt lat="37.3327416" lon="-122.0137018">
+    <time>2026-01-01T09:06:48Z</time>
+    <name>P22</name>
+  </wpt>
+  <wpt lat="37.3320943" lon="-122.0132054">
+    <time>2026-01-01T09:07:05Z</time>
+    <name>P23</name>
+  </wpt>
+  <wpt lat="37.3314554" lon="-122.0126352">
+    <time>2026-01-01T09:07:22Z</time>
+    <name>P24</name>
+  </wpt>
+  <wpt lat="37.3308501" lon="-122.0119408">
+    <time>2026-01-01T09:07:40Z</time>
+    <name>P25</name>
+  </wpt>
+  <wpt lat="37.3303365" lon="-122.0110890">
+    <time>2026-01-01T09:07:59Z</time>
+    <name>P26</name>
+  </wpt>
+  <wpt lat="37.3299878" lon="-122.0100894">
+    <time>2026-01-01T09:08:18Z</time>
+    <name>P27</name>
+  </wpt>
+  <wpt lat="37.3298638" lon="-122.0090000">
+    <time>2026-01-01T09:08:38Z</time>
+    <name>P28</name>
+  </wpt>
+  <wpt lat="37.3298638" lon="-122.0090000">
+    <time>2026-01-01T09:08:48Z</time>
+    <name>P28</name>
+  </wpt>
+  <wpt lat="37.3299878" lon="-122.0079106">
+    <time>2026-01-01T09:09:07Z</time>
+    <name>P29</name>
+  </wpt>
+  <wpt lat="37.3303365" lon="-122.0069110">
+    <time>2026-01-01T09:09:27Z</time>
+    <name>P30</name>
+  </wpt>
+  <wpt lat="37.3308501" lon="-122.0060592">
+    <time>2026-01-01T09:09:45Z</time>
+    <name>P31</name>
+  </wpt>
+  <wpt lat="37.3314554" lon="-122.0053648">
+    <time>2026-01-01T09:10:04Z</time>
+    <name>P32</name>
+  </wpt>
+  <wpt lat="37.3320943" lon="-122.0047946">
+    <time>2026-01-01T09:10:21Z</time>
+    <name>P33</name>
+  </wpt>
+  <wpt lat="37.3327416" lon="-122.0042982">
+    <time>2026-01-01T09:10:38Z</time>
+    <name>P34</name>
+  </wpt>
+  <wpt lat="37.3334071" lon="-122.0038413">
+    <time>2026-01-01T09:10:55Z</time>
+    <name>P35</name>
+  </wpt>
+  <wpt lat="37.3341192" lon="-122.0034306">
+    <time>2026-01-01T09:11:12Z</time>
+    <name>P36</name>
+  </wpt>
+  <wpt lat="37.3349000" lon="-122.0031184">
+    <time>2026-01-01T09:11:31Z</time>
+    <name>P37</name>
+  </wpt>
+</gpx>

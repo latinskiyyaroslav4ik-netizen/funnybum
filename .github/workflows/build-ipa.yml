@@ -1,0 +1,48 @@
+name: Build unsigned IPA
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Xcode version
+        run: xcodebuild -version
+
+      - name: Build (no code signing)
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project TerritoryPlanner.xcodeproj \
+            -target TerritoryPlanner \
+            -configuration Release \
+            -sdk iphoneos \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build 2>&1 | tee build.log
+
+      - name: Show compiler errors
+        if: failure()
+        run: grep -E "error:" build.log | sort -u | head -100 || true
+
+      - name: Package IPA
+        run: |
+          mkdir -p Payload
+          cp -R build/Release-iphoneos/TerritoryPlanner.app Payload/
+          zip -qry TerritoryPlanner-unsigned.ipa Payload
+          ls -la TerritoryPlanner-unsigned.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TerritoryPlanner-unsigned-ipa
+          path: TerritoryPlanner-unsigned.ipa
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-log
+          path: build.log
